@@ -11,7 +11,7 @@ const Mac = () => {
 
     useEffect(() => {
         const products = async () => {
-            const res = await fetch("http://localhost:3000/api/products")
+            const res = await fetch("https://apple-96iie2ux0-664parvez.vercel.app/api/products")
             const data = await res.json()
 
             setNewProduct(data)

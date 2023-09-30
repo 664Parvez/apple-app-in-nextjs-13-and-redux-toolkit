@@ -1,0 +1,548 @@
+.nav{
+    background-color: var(--second-color);
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    width: 100vw;
+    transition: .5 ease-in-out;
+    padding: 0px;
+}
+.scroll_nav{
+    background-color: var(--first-color);
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    width: 100vw;
+    transition: .5 ease-in-out;
+    opacity: .9;
+    padding: 2px;
+    -webkit-backdrop-filter: blur(0.8);
+    backdrop-filter: blur(0.8);
+}
+.logo a{
+    font-size: 27px;
+    color: var(--first-color);
+}
+.logo_dark a{
+    font-size: 27px;
+    color: var(--second-color);
+}
+.nav ul{
+    margin-bottom: 0;
+}
+.nav ul li{
+    display: inline-block;
+    margin-left: 23px;
+    color: var(--first-color);
+    padding: 10px 0;
+}
+.nav ul li a{
+    color: var(--first-color);
+}
+.nav ul li:first-child{
+    padding-left: 0;
+}
+.scroll_nav ul{
+    margin-bottom: 0;
+}
+.scroll_nav ul li{
+    display: inline-block;
+    margin-left: 23px;
+    color: var(--second-color);
+    padding: 10px 0;
+}
+.scroll_nav ul li a{
+    color: var(--second-color);
+}
+.scroll_nav ul li:first-child{
+    padding-left: 0;
+}
+
+.navItems li a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+}
+.navCart{
+    font-size: 19px;
+}
+.navCart a{
+    text-decoration: none;
+}
+.resMenu{
+    display: none;
+}
+.crossMenu{
+    display: none;
+}
+
+.store:hover #storeDrop{
+    display: block;
+}
+.store:hover #storeDropScroll{
+    display: block;
+}
+#storeDrop{
+    background-color: var(--second-color);
+    position: absolute;
+    width: 100vw;
+    left: 0;
+    top: 43px;
+    padding: 20px 0;
+    display: none;
+}
+#storeDropScroll{
+    background-color: var(--first-color);
+    position: absolute;
+    width: 100vw;
+    left: 0;
+    top: 43px;
+    padding: 20px 0;
+    display: none;
+}
+#storeDrop ul li{
+    display: block;
+    padding: 5px 0;
+    font-weight: 500;
+}
+#storeDropScroll ul li{
+    display: block;
+    padding: 5px 0;
+    font-weight: 500;
+}
+#storeDrop #storeFirst li a{
+    font-size: 25px;
+}
+#storeDropScroll #storeFirst li a{
+    font-size: 25px;
+}
+
+.mac:hover .macDrop{
+    display: block;
+}
+.mac:hover .macDropScroll{
+    display: block;
+}
+.macDrop{
+    background-color: var(--second-color);
+    position: absolute;
+    width: 100vw;
+    left: 0;
+    top: 43px;
+    padding: 20px 0;
+    display: none;
+}
+.macDropScroll{
+    background-color: var(--first-color);
+    position: absolute;
+    width: 100vw;
+    left: 0;
+    top: 43px;
+    padding: 20px 0;
+    display: none;
+}
+.macDrop ul li{
+    display: block;
+    padding: 5px 0;
+    font-weight: 500;
+}
+.macDropScroll ul li{
+    display: block;
+    padding: 5px 0;
+    font-weight: 500;
+}
+.macDrop .macFirst li a{
+    font-size: 25px;
+}
+.macDropScroll .macFirst li a{
+    font-size: 25px;
+}
+
+.ipad:hover .ipadDrop{
+    display: block;
+}
+.ipad:hover .ipadDropScroll{
+    display: block;
+}
+.ipadDrop{
+    background-color: var(--second-color);
+    position: absolute;
+    width: 100vw;
+    left: 0;
+    top: 43px;
+    padding: 20px 0;
+    display: none;
+}
+.ipadDropScroll{
+    background-color: var(--first-color);
+    position: absolute;
+    width: 100vw;
+    left: 0;
+    top: 43px;
+    padding: 20px 0;
+    display: none;
+}
+.ipadDrop ul li{
+    display: block;
+    padding: 5px 0;
+    font-weight: 500;
+}
+.ipadDropScroll ul li{
+    display: block;
+    padding: 5px 0;
+    font-weight: 500;
+}
+.ipadDrop .ipadFirst li a{
+    font-size: 25px;
+}
+.ipadDropScroll .ipadFirst li a{
+    font-size: 25px;
+}
+
+.iphone:hover .iphoneDrop{
+    display: block;
+}
+.iphone:hover .iphoneDropScroll{
+    display: block;
+}
+.iphoneDrop{
+    background-color: var(--second-color);
+    position: absolute;
+    width: 100vw;
+    left: 0;
+    top: 43px;
+    padding: 20px 0;
+    display: none;
+}
+.iphoneDropScroll{
+    background-color: var(--first-color);
+    position: absolute;
+    width: 100vw;
+    left: 0;
+    top: 43px;
+    padding: 20px 0;
+    display: none;
+}
+.iphoneDrop ul li{
+    display: block;
+    padding: 5px 0;
+    font-weight: 500;
+}
+.iphoneDropScroll ul li{
+    display: block;
+    padding: 5px 0;
+    font-weight: 500;
+}
+.iphoneDrop .iphoneFirst li a{
+    font-size: 25px;
+}
+.iphoneDropScroll .iphoneFirst li a{
+    font-size: 25px;
+}
+
+.watch:hover .watchDrop{
+    display: block;
+}
+.watch:hover .watchDropScroll{
+    display: block;
+}
+.watchDrop{
+    background-color: var(--second-color);
+    position: absolute;
+    width: 100vw;
+    left: 0;
+    top: 43px;
+    padding: 20px 0;
+    display: none;
+}
+.watchDropScroll{
+    background-color: var(--first-color);
+    position: absolute;
+    width: 100vw;
+    left: 0;
+    top: 43px;
+    padding: 20px 0;
+    display: none;
+}
+.watchDrop ul li{
+    display: block;
+    padding: 5px 0;
+    font-weight: 500;
+}
+.watchDropScroll ul li{
+    display: block;
+    padding: 5px 0;
+    font-weight: 500;
+}
+.watchDrop .watchFirst li a{
+    font-size: 25px;
+}
+.watchDropScroll .watchFirst li a{
+    font-size: 25px;
+}
+
+.airpod:hover .airpodDrop{
+    display: block;
+}
+.airpod:hover .airpodDropScroll{
+    display: block;
+}
+.airpodDrop{
+    background-color: var(--second-color);
+    position: absolute;
+    width: 100vw;
+    left: 0;
+    top: 43px;
+    padding: 20px 0;
+    display: none;
+}
+.airpodDropScroll{
+    background-color: var(--first-color);
+    position: absolute;
+    width: 100vw;
+    left: 0;
+    top: 43px;
+    padding: 20px 0;
+    display: none;
+}
+.airpodDrop ul li{
+    display: block;
+    padding: 5px 0;
+    font-weight: 500;
+}
+.airpodDropScroll ul li{
+    display: block;
+    padding: 5px 0;
+    font-weight: 500;
+}
+.airpodDrop .airpodFirst li a{
+    font-size: 25px;
+}
+.airpodDropScroll .airpodFirst li a{
+    font-size: 25px;
+}
+
+.tv:hover .tvDrop{
+    display: block;
+}
+.tv:hover .tvDropScroll{
+    display: block;
+}
+.tvDrop{
+    background-color: var(--second-color);
+    position: absolute;
+    width: 100vw;
+    left: 0;
+    top: 43px;
+    padding: 20px 0;
+    display: none;
+}
+.tvDropScroll{
+    background-color: var(--first-color);
+    position: absolute;
+    width: 100vw;
+    left: 0;
+    top: 43px;
+    padding: 20px 0;
+    display: none;
+}
+.tvDrop ul li{
+    display: block;
+    padding: 5px 0;
+    font-weight: 500;
+}
+.tvDropScroll ul li{
+    display: block;
+    padding: 5px 0;
+    font-weight: 500;
+}
+.tvDrop .tvFirst li a{
+    font-size: 25px;
+}
+.tvDropScroll .tvFirst li a{
+    font-size: 25px;
+}
+
+.intertain:hover .intertainDrop{
+    display: block;
+}
+.intertain:hover .intertainDropScroll{
+    display: block;
+}
+.intertainDrop{
+    background-color: var(--second-color);
+    position: absolute;
+    width: 100vw;
+    left: 0;
+    top: 43px;
+    padding: 20px 0;
+    display: none;
+}
+.intertainDropScroll{
+    background-color: var(--first-color);
+    position: absolute;
+    width: 100vw;
+    left: 0;
+    top: 43px;
+    padding: 20px 0;
+    display: none;
+}
+.intertainDrop ul li{
+    display: block;
+    padding: 5px 0;
+    font-weight: 500;
+}
+.intertainDropScroll ul li{
+    display: block;
+    padding: 5px 0;
+    font-weight: 500;
+}
+.intertainDrop .intertainFirst li a{
+    font-size: 25px;
+}
+.intertainDropScroll .intertainFirst li a{
+    font-size: 25px;
+}
+
+.access:hover .accessDrop{
+    display: block;
+}
+.access:hover .accessDropScroll{
+    display: block;
+}
+.accessDrop{
+    background-color: var(--second-color);
+    position: absolute;
+    width: 100vw;
+    left: 0;
+    top: 43px;
+    padding: 20px 0;
+    display: none;
+}
+.accessDropScroll{
+    background-color: var(--first-color);
+    position: absolute;
+    width: 100vw;
+    left: 0;
+    top: 43px;
+    padding: 20px 0;
+    display: none;
+}
+.accessDrop ul li{
+    display: block;
+    padding: 5px 0;
+    font-weight: 500;
+}
+.accessDropScroll ul li{
+    display: block;
+    padding: 5px 0;
+    font-weight: 500;
+}
+.accessDrop .accessFirst li a{
+    font-size: 25px;
+}
+.accessDropScroll .accessFirst li a{
+    font-size: 25px;
+}
+
+.supp:hover .suppDrop{
+    display: block;
+}
+.supp:hover .suppDropScroll{
+    display: block;
+}
+.suppDrop{
+    background-color: var(--second-color);
+    position: absolute;
+    width: 100vw;
+    left: 0;
+    top: 43px;
+    padding: 20px 0;
+    display: none;
+}
+.suppDropScroll{
+    background-color: var(--first-color);
+    position: absolute;
+    width: 100vw;
+    left: 0;
+    top: 43px;
+    padding: 20px 0;
+    display: none;
+}
+.suppDrop ul li{
+    display: block;
+    padding: 5px 0;
+    font-weight: 500;
+}
+.suppDropScroll ul li{
+    display: block;
+    padding: 5px 0;
+    font-weight: 500;
+}
+.suppDrop .suppFirst li a{
+    font-size: 25px;
+}
+.suppDropScroll .suppFirst li a{
+    font-size: 25px;
+}
+
+.responsiveNav{
+    position: absolute;
+    background: var(--second-color);
+    width: 100%;
+    padding: 20px;
+    margin-top: 40px;
+    position: fixed;
+}
+.responsiveNav_hide{
+    display: none;
+}
+.responsiveNav ul{
+    padding-left: 0;
+}
+.responsiveNav ul li{
+    padding: 5px 0;
+}
+.responsiveNav ul li a{
+    text-decoration: none;
+    color: var(--first-color);
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+
+@media only screen and (min-width: 300px) and (max-width: 800px) {
+    .nav{
+        justify-content: space-between;
+        padding: 0 10px;
+    }
+    .nav ul li{
+        padding: 0px 0;
+    }
+    .scroll_nav{
+        justify-content: space-between;
+        padding: 0 10px;
+        padding-top: 0;
+    }
+    .scroll_nav ul li{
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+    .navItems{
+        display: none;
+    }
+    .resMenu{
+        display: block;
+    }
+    .crossMenu{
+        display: block;
+    }
+}
+@media only screen and (min-width: 800px) and (max-width: 1054px) {
+    .navItems li a{
+        font-size: 12px;
+    }
+}

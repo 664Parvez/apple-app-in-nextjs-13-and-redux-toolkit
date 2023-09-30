@@ -1,0 +1,97 @@
+#first_section{
+    padding-top: 100px;
+}
+#product_card{
+    background-color: var(--second-color);
+    box-shadow: 2px 2px 6px #d8d8d8;
+    padding: 20px;
+    border-radius: 15px;
+    height: 500px;
+}
+.product_img{
+    height: 320px;
+    width: 100%;
+}
+#product_card p{
+    font-weight: 600;
+    color: var(--red-color);
+}
+#product_card h3{
+    font-size: 20px;
+}
+
+#mac_product_card{
+    background-color: var(--second-color);
+    box-shadow: 2px 2px 6px #d8d8d8;
+    padding: 20px;
+    border-radius: 15px;
+    height: 430px;
+}
+
+#mac_product_card p{
+    font-weight: 600;
+    color: var(--red-color);
+}
+#mac_product_card h3{
+    font-size: 25px;
+}
+
+#ipad_product_card{
+    background-color: var(--second-color);
+    box-shadow: 2px 2px 6px #d8d8d8;
+    padding: 20px;
+    border-radius: 15px;
+    height: 420px;
+}
+#ipad_product_card p{
+    font-weight: 600;
+    color: var(--red-color);
+}
+#ipad_product_card h3{
+    font-size: 25px;
+}
+
+#iphone_product_card {
+    background-color: var(--second-color);
+    box-shadow: 2px 2px 6px #d8d8d8;
+    padding: 20px;
+    border-radius: 15px;
+    height: 400px;
+}
+#iphone_product_card p{
+    font-weight: 600;
+    color: var(--red-color);
+}
+#iphone_product_card h3{
+    font-size: 25px;
+}
+
+#watch_product_card{
+    background-color: var(--second-color);
+    box-shadow: 2px 2px 6px #d8d8d8;
+    padding: 20px;
+    border-radius: 15px;
+    height: 410px;
+}
+#watch_product_card p{
+    font-weight: 600;
+    color: var(--red-color);
+}
+#watch_product_card h3{
+    font-size: 25px;
+}
+
+#accressories_product_card {
+    background-color: var(--second-color);
+    box-shadow: 2px 2px 6px #d8d8d8;
+    padding: 20px;
+    border-radius: 15px;
+    height: 530px;
+}
+#accressories_product_card p{
+    font-weight: 600;
+    color: var(--red-color);
+}
+#accressories_product_card h3{
+    font-size: 25px;
+}

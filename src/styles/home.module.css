@@ -1,0 +1,227 @@
+.hero_section_img{
+    background-image: url("../../public/home/hero_iphone15pro.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 150px 0;
+}
+#hero_section #hero_content{
+    padding-bottom: 150px;
+}
+#hero_content h1{
+    color: var(--second-color);
+    font-size: 60px;
+}
+#hero_content h4{
+    color: var(--second-color);
+}
+#hero_content p{
+    color: var(--second-color);
+}
+
+.second_section_img{
+    background-image: url("../../public/home/second.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+}
+#second_section #second_content{
+    padding-bottom: 180px;
+}
+#second_content h2{
+    color: var(--first-color);
+    font-size: 60px;
+}
+#second_content h4{
+    color: var(--first-color);
+}
+#second_content p{
+    color: var(--first-color);
+}
+
+.third_section_img{
+    background-image: url("../../public/home/third.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+}
+#third_section #third_content{
+    padding-bottom: 250px;
+}
+#third_content h2{
+    color: var(--second-color);
+    font-size: 60px;
+}
+#third_content h3{
+    color: var(--red-color);
+}
+#third_content h4{
+    color: var(--second-color);
+}
+#third_content p{
+    color: var(--second-color);
+}
+
+#forth_section{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.forth_section_one_img{
+    background-image: url("../../public/home/forth1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+    height: 100vh;
+}
+#forth_section_one #forth_content_one{
+    padding-bottom: 250px;
+}
+#forth_content_one h2{
+    color: var(--first-color);
+    font-size: 40px;
+}
+#forth_content_one h5{
+    color: var(--red-color);
+}
+#forth_content_one h4{
+    color: var(--first-color);
+}
+#forth_content_one p{
+    color: var(--first-color);
+}
+.forth_section_two_img{
+    background-image: url("../../public/home/forth2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+    height: 100vh;
+}
+#forth_section_two #forth_content_two{
+    padding-bottom: 250px;
+}
+#forth_content_two h2{
+    color: var(--first-color);
+    font-size: 40px;
+}
+#forth_content_two h5{
+    color: var(--red-color);
+}
+#forth_content_two h4{
+    color: var(--first-color);
+}
+#forth_content_two p{
+    color: var(--first-color);
+}
+
+#fifth_section{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.fifth_section_one_img{
+    background-image: url("../../public/home/fifth1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+    height: 100vh;
+}
+#fifth_section_one #fifth_content_one{
+    padding-bottom: 250px;
+}
+#fifth_content_one h2{
+    color: var(--first-color);
+    font-size: 40px;
+}
+#fifth_content_one h5{
+    color: var(--red-color);
+}
+#fifth_content_one h4{
+    color: var(--first-color);
+}
+#fifth_content_one p{
+    color: var(--first-color);
+}
+.fifth_section_two_img{
+    background-image: url("../../public/home/forth1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+    height: 100vh;
+}
+#fifth_section_two #fifth_content_two{
+    padding-bottom: 250px;
+}
+#fifth_content_two h2{
+    color: var(--first-color);
+    font-size: 40px;
+}
+#fifth_content_two h5{
+    color: var(--red-color);
+}
+#fifth_content_two h4{
+    color: var(--first-color);
+}
+#fifth_content_two p{
+    color: var(--first-color);
+}
+
+#sixth_section{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.sixth_section_one_img{
+    background-image: url("../../public/home/sixth1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+    height: 100vh;
+}
+#sixth_section_one #sixth_content_one{
+    padding-bottom: 250px;
+}
+#sixth_content_one h2{
+    color: var(--first-color);
+    font-size: 40px;
+}
+#sixth_content_one h5{
+    color: var(--red-color);
+}
+#sixth_content_one h4{
+    color: var(--first-color);
+}
+#sixth_content_one p{
+    color: var(--first-color);
+}
+.sixth_section_two_img{
+    background-image: url("../../public/home/sixth2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+    height: 100vh;
+}
+#sixth_section_two #sixth_content_two{
+    padding-bottom: 250px;
+}
+#sixth_content_two h2{
+    color: var(--first-color);
+    font-size: 40px;
+}
+#sixth_content_two h5{
+    color: var(--red-color);
+}
+#sixth_content_two h4{
+    color: var(--first-color);
+}
+#sixth_content_two p{
+    color: var(--first-color);
+}
